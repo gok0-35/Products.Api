@@ -2,6 +2,7 @@ bin/
 obj/
 out/
 publish/
+Logs/
 
 *.user
 *.suo
@@ -15,7 +16,6 @@ publish/
 *.nupkg
 
 *.log
-*.Logs
 
 wwwroot/lib/
 wwwroot/node_modules/
