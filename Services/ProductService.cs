@@ -23,7 +23,6 @@ public class ProductService : IProductService
         _logger = logger;
     }
 
-    // ✅ PAGINATION + FILTERING
     public async Task<PagedResult<ReadProductDto>> GetPagedAsync(
         int page,
         int pageSize,
